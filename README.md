@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Student Notes 704
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Une application de prise de notes basée sur React, conçue pour aider les étudiants à gérer efficacement leurs notes académiques.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- Création, modification et suppression de notes
+- Organisation des notes par matières/catégories
+- Synchronisation en temps réel avec Firebase
+- Design responsive pour tous les appareils
+- Authentification utilisateur
 
-### `npm start`
+## Technologies Utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Firebase (Authentification & Firestore)
+- React Router
+- Bootstrap/Material-UI pour le style
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pour Commencer
 
-### `npm test`
+1. Cloner le dépôt :
+```bash
+git clone https://github.com/MoustaphaCamara-dev/student-notes-704.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Installer les dépendances :
+```bash
+cd student-notes-704
+npm install
+```
 
-### `npm run build`
+3. Configurer votre configuration Firebase dans `src/firebase.js`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Démarrer le serveur de développement :
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Structure du Projet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+student-notes-704/
+├── src/
+│   ├── components/     # Composants réutilisables
+│   ├── pages/         # Composants de pages
+│   ├── firebase.js    # Configuration Firebase
+│   ├── App.jsx        # Composant principal de l'application
+│   └── index.js       # Point d'entrée de l'application
+└── README.md
+```
 
-### `npm run eject`
+## Contribution
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+N'hésitez pas à soumettre des issues et des demandes d'amélioration.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licence
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ce projet est sous licence MIT.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Améliorations Futures
+Implémentation de l'authentification Firebase.
+Ajout d'un mode sombre.
+Ajout de fonctionnalités comme la recherche et les catégories de notes.
+Support hors ligne avec IndexedDB.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Auteur
+Créé par Moustapha Camara
+GitHub : MoustaphaCamara-dev
